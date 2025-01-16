@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #B5B2B2; /* Color gris clarito */
+}
+
+header {
+    text-align: center;
+}
+
+.main-image {
+    width: 1853px;
+    height: 638px;
+    margin-top: 20px;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50; /* Color verde */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049; /* Color verde más oscuro al pasar el ratón */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('Imagenes/Background.webp'); /* Cambia 'fondo.png' por el nombre de tu imagen */
+    background-size: cover; /* Asegura que la imagen cubra todo el fondo */
+    background-position: center; /* Centra la imagen de fondo */
+}
+
+header {
+    text-align: center;
+    color: white; /* Cambia el color del texto si es necesario para que contraste con el fondo */
+}
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.item-image {
+    width: 500px;
+    height: 670px;
+    margin: 10px;
+    border: 2px solid #ccc; /* Borde gris claro alrededor de las imágenes */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: transform 0.3s;
+}
+
+.item-image:hover {
+    transform: scale(1.05); /* Efecto de zoom al pasar el ratón */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #B5B2B2; /* Color gris clarito */
+}
+
+header {
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.social-icon {
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+}
+
+.main-image {
+    width: 1853px;
+    height: 638px;
+    margin-top: 20px;
+}
+
+button {
+    margin: 20px;
+    padding: 20px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50; /* Color verde */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049; /* Color verde más oscuro al pasar el ratón */
+}
